@@ -1,0 +1,19 @@
+{
+  "name": "myexpences",
+  "version": "1.0.0",
+  "description": "Manage your expences.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Lubos Suchar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.8",
+    "morgan": "^1.7.0"
+  }
+}
